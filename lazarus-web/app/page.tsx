@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 // --- API CONFIGURATION ---
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://lazarus-ai.onrender.com";
 
 export default function LazarusDashboard() {
   const [url, setUrl] = useState("");
